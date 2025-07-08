@@ -1,0 +1,1 @@
+import{a}from"./index-t--hEgTQ.js";const o="http://3.142.142.153:5000/api",r=a.create({baseURL:o});r.interceptors.request.use(e=>{const t=localStorage.getItem("authToken");return t&&(e.headers.Authorization=`Bearer ${t}`),e});export{r as a};
